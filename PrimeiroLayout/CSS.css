@@ -1,0 +1,173 @@
+/*Reset - tira padrões do HTML
+--------------------------*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #959595;
+}
+
+a{
+    text-decoration: none;
+    color: #f71d1d;
+}
+a:hover{/*Configura quando passa o mouse*/
+    color: #900;
+}
+
+ul{
+    list-style: none;
+}
+
+h1, h2{
+    color: darkred;
+}
+
+/*Geral
+--------------------------*/
+.row{
+    width: 100%;
+    float: left;
+}
+
+.content{
+    width: 1024px;
+    margin: 0 auto;
+}
+
+/*Header
+---------------------------*/
+.header{
+    padding: 10px 0;
+}
+
+.header-logo{
+    float: left;
+}
+.header-logo h1 a{
+    color: #959595;
+}
+.header-logo h1 a span.html{
+    color: #016fba;
+}
+.header-logo h1 a span.css{
+    color: #e54d26;
+}
+
+.header-menu{
+    float: right;
+    padding: 9px 0;
+}
+.header-menu ul li{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* Bem vindo
+--------------------------------*/
+.bem-vindo{
+    background-color: #ff6969;
+    padding: 20px 0;
+    text-align: center;
+}
+.bem-vindo .content{
+    width: 620px;
+}
+.bem-vindo .content h1{
+    color: #fff;
+}
+
+/* Meio
+------------------------*/
+.meio{
+    padding: 30px 0;
+}
+
+.meio-menu{
+    float: left;
+    width: 200px;
+    font-size: 18px;
+}
+.meio-menu h1{
+    font-size: 20px;
+    padding-left: 20px;
+    text-align: center;
+}
+.meio-menu ul li{
+    margin-top: 20px ;
+    text-align: center;
+}
+
+
+.meio-conteudo{
+    float: right;
+    width: 800px;
+}
+.meio-conteudo h1{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.meio-conteudo h1 a{
+    color: darkred;
+}
+.meio-conteudo p{
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-indent: 20px;
+}
+.meio-conteudo p a{
+    color: #959595;
+}
+.meio-conteudo h1 a:hover, .meio-conteudo p a:hover{
+    text-decoration: underline;
+} 
+
+/* Últimos Artigos
+-----------------------------*/
+.artigos{
+    padding: 30px 0;
+    background-color: #faafaf;
+}
+
+.artigos-title{
+    font-size: 30px;
+    color: #f71d1d;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #f71d1d;
+    padding: 5px;
+}
+
+.artigos-colunas{
+    float: left;
+    text-align: justify;
+    width: 30.66%;
+}
+.artigos-colunas:nth-of-type(2){
+    margin-right: 4%;
+    margin-left:4%;
+}
+.artigos-colunas a{
+    font-size: 18px;
+    color: darkred;
+}
+.artigos-colunas a:hover{
+    text-decoration: underline;
+}
+.artigos-colunas h2{
+    font-size: 20px;
+    color: darkred;
+    margin-bottom: 10px;
+}
+.artigos-colunas p{
+    margin-bottom: 30px;
+}
+
+/*Rodapé
+------------------------------*/
+.footer{
+    text-align: center;
+    padding: 20px 0;
+}
